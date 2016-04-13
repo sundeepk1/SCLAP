@@ -32,7 +32,9 @@ ex: ./Batch_SCLAP Mult_input
 
 Note: The input sequence file may contain multiple protein sequences in FASTA format. For batch submission RAW format is not accepted. The output for the batch submission will be stored as file named with first 11 characters of the corespondig FASTA header.
 
+#Important Note:
 
+This tool is to predict the subchloroplast location of a chloroplast protein. It doesnt validate whether the input protein is a Chloroplast protein or not. Hence, it is highly advised to input a chloroplast protein. Providing a unkown protein to this tool still predict a subchloroplat location, but it doesnt make any sense. For details refer the article.    
 
 
 
