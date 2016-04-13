@@ -1,7 +1,8 @@
 # SCLAP
 Scuchloroplast Localization Prediction using AdaBoost Predictor
 
-Cite:
+#Cite:
+
 SCLAP: An Adaptive Boosting Method for Predicting Subchloroplast Localization of Plant Proteins 
 Vijayakumar Saravanan and P.T.V. Lakshmi. OMICS: A Journal of Integrative Biology. February 2013, 17(2): 106-115. doi:10.1089/omi.2012.0070.
 
