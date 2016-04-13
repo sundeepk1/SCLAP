@@ -20,14 +20,14 @@ Linux OS
 Execute the program by typing the following command after installation 
 
 (a) For Single protein run 
-./SCLAP <input sequence file> <output file name>
-ex: ./SCLAP Seq_raw Out1
+./SCLAP [input sequence file] [output file name]
+ex: ./SCLAP Seq_raw_in Out1
 
 Note: The input sequence file should contain single sequence in RAW format. FASTA format is not accepted!. For Batch sequence prediction use Batch_SCLAP.
 
 
 (b) For Batch Protein run
-./Batch_SCALP <input sequence file>
+./Batch_SCALP [input_mult_protein_file]
 ex: ./Batch_SCLAP Mult_input
 
 Note: The input sequence file may contain multiple protein sequences in FASTA format. For batch submission RAW format is not accepted. The output for the batch submission will be stored as file named with first 11 characters of the corespondig FASTA header.
