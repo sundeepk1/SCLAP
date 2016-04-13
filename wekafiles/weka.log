@@ -1,0 +1,46 @@
+2016-02-24 11:58:43 weka.gui.GUIChooser main
+INFO: Logging started
+Refreshing GOE props...
+---Registering Weka Editors---
+Trying to add database driver (JDBC): RmiJdbc.RJDriver - Warning, not in CLASSPATH?
+Trying to add database driver (JDBC): jdbc.idbDriver - Warning, not in CLASSPATH?
+Trying to add database driver (JDBC): org.gjt.mm.mysql.Driver - Warning, not in CLASSPATH?
+Trying to add database driver (JDBC): com.mckoi.JDBCDriver - Warning, not in CLASSPATH?
+Trying to add database driver (JDBC): org.hsqldb.jdbcDriver - Warning, not in CLASSPATH?
+[KnowledgeFlow] Loading properties and plugins...
+[KnowledgeFlow] Initializing KF...
+[DefaultPackageManager] removing: /home/brsaran/wekafiles/packages/LibSVM/Description.props
+[DefaultPackageManager] removing: /home/brsaran/wekafiles/packages/LibSVM/build_package.xml
+[DefaultPackageManager] removing: /home/brsaran/wekafiles/packages/LibSVM/pom.xml
+[DefaultPackageManager] removing: /home/brsaran/wekafiles/packages/LibSVM/LibSVM.jar
+[DefaultPackageManager] removing: /home/brsaran/wekafiles/packages/LibSVM
+[KnowledgeFlow] Initializing KF...
+http://prdownloads.sourceforge.net/weka/LibSVM1.0.4.zip?download
+[DefaultPackageManager] Tmp file: /tmp/LibSVM1.0.45150491865243528416.zip
+[DefaultPackageManager] downloaded 111 KB
+[DefaultPackageManager] Installing: Description.props
+[DefaultPackageManager] Installing: LibSVM.jar
+[DefaultPackageManager] Installing: build_package.xml
+[DefaultPackageManager] Installing: doc/allclasses-frame.html
+[DefaultPackageManager] Installing: doc/allclasses-noframe.html
+[DefaultPackageManager] Installing: doc/constant-values.html
+[DefaultPackageManager] Installing: doc/deprecated-list.html
+[DefaultPackageManager] Installing: doc/help-doc.html
+[DefaultPackageManager] Installing: doc/index-all.html
+[DefaultPackageManager] Installing: doc/index.html
+[DefaultPackageManager] Installing: doc/overview-tree.html
+[DefaultPackageManager] Installing: doc/package-list
+[DefaultPackageManager] Installing: doc/resources/inherit.gif
+[DefaultPackageManager] Installing: doc/serialized-form.html
+[DefaultPackageManager] Installing: doc/stylesheet.css
+[DefaultPackageManager] Installing: doc/weka/classifiers/functions/LibSVM.html
+[DefaultPackageManager] Installing: doc/weka/classifiers/functions/package-frame.html
+[DefaultPackageManager] Installing: doc/weka/classifiers/functions/package-summary.html
+[DefaultPackageManager] Installing: doc/weka/classifiers/functions/package-tree.html
+[DefaultPackageManager] Installing: lib/libsvm.jar
+[DefaultPackageManager] Installing: pom.xml
+[DefaultPackageManager] Installing: src/main/java/weka/classifiers/functions/LibSVM.java
+[DefaultPackageManager] Installing: src/test/java/weka/classifiers/functions/LibSVMTest.java
+URL file:/home/brsaran/wekafiles/packages/LibSVM/lib/libsvm.jar is already in the CLASSPATH
+URL file:/home/brsaran/wekafiles/packages/LibSVM/LibSVM.jar is already in the CLASSPATH
+[KnowledgeFlow] Initializing KF...

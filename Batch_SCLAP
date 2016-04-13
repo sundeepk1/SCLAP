@@ -1,0 +1,41 @@
+#!/usr/bin/perl
+######## Sub Chloroplast Loclaization using ADABOOST predictor (SCLAP)#####################
+#        Developed by SARAVANAN VIJAYAKUMAR
+#         Centre for Bioinformatics, Pondicherry University
+#         brsaran@gmail.com
+#         Date: 15-03-2012
+#
+
+use List::Util qw[max];
+use CGI qw(:standard);
+
+print "Enter Protein File:";
+$input = <STDIN>;
+open(FIL1,"$input");
+@Seq_hold1 = <FIL1>;
+
+foreach(@Seq_hold1){
+         if(substr(@Seq_hold1[$j],0,1) eq ">"){
+                $i=$i+1;
+                @Seq_submit1[$i]= @Seq_hold1[$j]."\n";
+                @FASTA_Header[$i]= substr($Seq_hold1[$j],1,11);
+                $j++;
+             }
+             else{
+                  @Rawseq1[$i].= @Seq_hold1[$j];
+                  $Rawseq1[$i]=~s/\s//g;
+                  @Seq_submit1[$i].= @Seq_hold1[$j];
+                  $j++;
+                  $k++;
+             }
+}
+
+for($m=1;$m<=@Rawseq1;$m++){
+	$x = int(rand(10002))."fasta";
+	open(FL,">$x");
+	print FL $Rawseq1[$m];
+	close(FL);	
+	`./SCLAP $x $FASTA_Header[$m]`;
+	unlink($x);
+	print "$FASTA_Header[$m] Completed !\n"
+}
