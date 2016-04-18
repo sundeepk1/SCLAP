@@ -30,7 +30,7 @@ Note: The input sequence file should contain single sequence in RAW format. FAST
 ./Batch_SCALP [input_mult_protein_file]
 ex: ./Batch_SCLAP Mult_input
 
-Note: The input sequence file may contain multiple protein sequences in FASTA format. For batch submission RAW format is not accepted. The output for the batch submission will be stored as file named with first 11 characters of the correspondig FASTA header.
+Note: The input sequence file may contain multiple protein sequences in FASTA format. For batch submission RAW format is not accepted. The output for the batch submission will be stored as file named with first 11 characters of the corresponding FASTA header.
 
 #Important Note:
 
