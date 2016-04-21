@@ -31,11 +31,13 @@ foreach(@Seq_hold1){
 }
 
 for($m=1;$m<=@Rawseq1;$m++){
-	$x = int(rand(10002))."fasta";
+	$x = int(rand(10002)).".fasta";
 	open(FL,">$x");
 	print FL $Rawseq1[$m];
-	close(FL);	
-	`./SCLAP $x $FASTA_Header[$m]`;
+	close(FL);
+	$FileOh = $FASTA_Header[$m];
+	$FileOh=~s/\W//g;
+	`./SCLAP $x $FileOh`;
 	unlink($x);
 	print "$FASTA_Header[$m] Completed !\n"
 }
